@@ -12,11 +12,11 @@ keywords: Git,Github Pages,Blog,Jekyll,Markdown
 - 交流
 - 分享
 
- ## 参考：
+## 参考：
 
  - [书写是为了更好的思考 ](http://mindhacks.cn/2009/02/09/writing-is-better-thinking/)
 
- # 博客内容
+# 博客内容
  - 学习笔记
  - 工作经验分享
  - 随笔
@@ -29,7 +29,7 @@ keywords: Git,Github Pages,Blog,Jekyll,Markdown
 - Markdown
 - Visual Studio Code
 
- ## 参考：
+## 参考：
  - [廖雪峰-Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
  - [Windows 上安装 Jekyll](http://blog.csdn.net/rainloving/article/details/45745491)
  - [码志-My Blog / Jekyll Themes](https://github.com/mzlogin/mzlogin.github.io)
