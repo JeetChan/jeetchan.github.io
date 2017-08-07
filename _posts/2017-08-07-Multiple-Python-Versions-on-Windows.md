@@ -45,7 +45,8 @@ keywords: virtualenv,Multiple Python Versions on Windows
 
   ![py2activate](/images/posts/python/2017-08-07-py2activate.png)
 
-  ![py3activate]/images/posts/python/2017-08-07-py3activate.png)
+
+  ![py3activate](/images/posts/python/2017-08-07-py3activate.png)
 
 # 关闭virtualenv
 
