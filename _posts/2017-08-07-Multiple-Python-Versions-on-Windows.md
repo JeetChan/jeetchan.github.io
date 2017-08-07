@@ -18,35 +18,35 @@ keywords: virtualenv,Multiple Python Versions on Windows
 
   ``` mkdir py3 ```
 
-  ![创建目录](https://github.com/JeetChan/jeetchan.github.io/blob/master/images/posts/python/2017-08-07-mkdir.png)
+  ![创建目录](/images/posts/python/2017-08-07-mkdir.png)
 * 创建Python2虚拟环境
 
   进入py2目录，运行如下语句：
 
   ``` virtualenv --python D:\Program\Python2\python.exe ENV ```
 
-  ![py2ENV](https://github.com/JeetChan/jeetchan.github.io/blob/master/images/posts/python/2017-08-07-py2ENV.png)
+  ![py2ENV](/images/posts/python//2017-08-07-py2ENV.png)
 * 创建Python3虚拟环境
 
    因为我已设置Python3的环境变量，所以在这里不需要指定Python版本，进入py3目录，运行如下语句：
 
   ``` virtualenv ENV ```
 
-  ![py3ENV](https://github.com/JeetChan/jeetchan.github.io/blob/master/images/posts/python/2017-08-07-py3ENV.png)
+  ![py3ENV](/images/posts/python/2017-08-07-py3ENV.png)
 # 激活virtualenv
 
   在windows中,虚拟环境的激活使用命令：your_env_dir\Scripts\activate，``` activate ```
 
-  ![py2activate](https://github.com/JeetChan/jeetchan.github.io/blob/master/images/posts/python/2017-08-07-py2activate.png)
+  ![py2activate](/images/posts/python/2017-08-07-py2activate.png)
 
-  ![py3activate](https://github.com/JeetChan/jeetchan.github.io/blob/master/images/posts/python/2017-08-07-py3activate.png)
+  ![py3activate]/images/posts/python/2017-08-07-py3activate.png)
 
 # 关闭virtualenv
 使用下面命令:
 
 ``` deactivate ```
 
-![deactivate](https://github.com/JeetChan/jeetchan.github.io/blob/master/images/posts/python/2017-08-07-deactivate.png)
+![deactivate](/images/posts/python/2017-08-07-deactivate.png)
 # 参考
 [Virtualenv官方文档](https://virtualenv.pypa.io/en/stable/)
 # CHANGELOG
