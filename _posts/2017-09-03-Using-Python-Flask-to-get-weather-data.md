@@ -53,7 +53,9 @@ project <-- 根目录
 
 * 编写前端
 
-    前端中 Html 部分主要包含主页面 index.html ，404 页面的 404.html ，‘_data’后缀的 Html 文件是显  示动态数据的模板。主页面初始时显示帮助信息，当点击不同按钮采用 jQuery DOM 操作隐藏，显示相应  的数据。主页页通过 {% highlight html linenos %}  {% extends "bootstrap/base.html" %}  {% endhighlight %} 使用 Flask-Bootstrap 模板。因为需要引入 其他 JS 和 CSS 文件，使用了Jinja2 提供的super() 函数。  如：
+    前端中 Html 部分主要包含主页面 index.html ，404 页面的 404.html ，‘_data’后缀的 Html 文件是显  示动态数据的模板。主页面初始时显示帮助信息，当点击不同按钮采用 jQuery DOM 操作隐藏，显示相应  的数据。主页页通过 继承 Bootstrap 基础页面使用 Flask-Bootstrap 模板。  
+    ![使用 Flask-Bootstrap 模板](/images/posts/python/2017-09-03-html.jpg)  
+    因为需要引入 其他 JS 和 CSS 文件，使用了Jinja2 提供的super() 函数。  如：
    ```
    {{ super() }}
    <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
