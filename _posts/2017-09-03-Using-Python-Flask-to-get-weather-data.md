@@ -75,7 +75,7 @@ project <-- 根目录
 ![历史信息](/images/posts/python/2017-09-03-history.jpg)  
 
 ## 代码
-  代码托管在 [GitHub](https://github.com/JeetChan/LearnPythontheHardWay/tree/master/extended/Chap3/project) 中，安装 requirements.txt 文件指安的依赖库，进入 weather_app.py 文件所在的目录，运行 ``` piython weather_app.py ``` 命令即可部署。
+  代码托管在 [GitHub](https://github.com/JeetChan/LearnPythontheHardWay/tree/master/extended/Chap3/project) 中，安装 requirements.txt 文件指定的依赖库，进入 weather_app.py 文件所在的目录，运行 ``` piython weather_app.py ``` 命令即可部署。
 ## 参考
 
   [思诚之道博客，Flask系列文章](http://www.bjhee.com/tag/flask)
